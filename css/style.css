@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button:focus {
+    outline: none;
+}
+h2,h6,h5{
+    font-weight: 700;
+}
+.container1{
+    width: 60%;
+    margin: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*------------------------------*/
+/*------------Header------------*/
+/*------------------------------*/
+nav ul li{
+    padding: 0 15px;
+}
+nav ul li:last-child{
+    padding-right: 0;
+}
+nav ul li a{
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+.carousel img{
+    height: 600px;
+}
+.black-overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.carousel-caption{
+    padding-top: 200px
+}
+.carousel-caption h2{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.4;
+    color: #fff;
+}
+.carousel-caption span{
+    width: 150px;
+    color: #368db0;
+    border: 1px solid #368db0;
+    display: block;
+    margin: 40px auto;
+}
+.services-area span{
+    width: 150px;
+    color: #78daf6;
+    border: 1px solid #78daf6;
+    display: block;
+    margin: 40px auto;
+}
+.expertise-area .btn-outline-primary{
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #848484;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 25px;
+}
+.expertise-area .btn-outline-primary:hover{
+    background-color: #78daf6;
+    color: #fff;
+    border-color: #78daf6; 
+}
+.expertise-area svg:not(:root).svg-inline--fa{
+    height: 35px;
+    width: 80px;
+    color: #848484;
+    padding: 8px;
+    border-radius: 50%;
+}
+.expertise-area svg:not(:root).svg-inline--fa:hover{
+    color: #fff;
+    background: #78daf6;
+}
+.portfolio-area svg:not(:root).svg-inline--fa{
+    height: 35px;
+    width: 70px;
+    color: #848484;
+    padding: 8px;
+    border-radius: 50%;
+}
+.portfolio-area svg:not(:root).svg-inline--fa:hover{
+    color: #fff;
+    background: #78daf6;
+}
+.about-area span{
+    width: 150px;
+    color: #78daf6;
+    border: 1px solid #78daf6;
+    display: block;
+    margin: 40px auto;
+}
+.about-area p{
+    font-size: 14px;
+}
+.team-area ul li{
+    display: inline-block;
+}
+.team-area span{
+    width: 150px;
+    color: #78daf6;
+    border: 1px solid #78daf6;
+    display: block;
+    margin: 40px auto;
+}
+.contact-area{
+    background: #000;
+}
+.contact-area .btn-outline-primary{
+    color: #fff;
+    border: 1px solid #848484;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 25px;
+}
+.contact-area hr{
+    border: 1px solid #fff;
+    margin-top: 50px;
+}
+.team-area svg:not(:root).svg-inline--fa{
+    height: 30px;
+    width: 30px;
+    color: #848484;
+    padding: 7px;
+    border-radius: 50%;
+}
+.team-area svg:not(:root).svg-inline--fa:hover{
+    color: #fff;
+    background: #78daf6;
+}
+.contact-area svg:not(:root).svg-inline--fa{
+    height: 30px;
+    width: 30px;
+    color: #848484;
+    padding: 7px;
+    border-radius: 50%;
+}
+.contact-area svg:not(:root).svg-inline--fa:hover{
+    color: #fff;
+    background: #78daf6;
+}
